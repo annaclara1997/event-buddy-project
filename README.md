@@ -48,31 +48,23 @@ Antes de começares, certifica-te de que tens instalado:
   ```bash
   npm install -g expo-cli
 
+⚙️ Instalação e execução do projeto
+Clona o repositório:
 
-  ⚙️ Instalação e execução do projeto
+git clone https://github.com/seu-usuario/event-buddy.git
+cd event-buddy
 
-  1- Clona o repositório:
-  git clone https://github.com/seu-usuario/event-buddy.git
-  cd event-buddy
+Instala as dependências:
 
-  2- Instala as dependências:
-    
-    npm install
-    # ou
-    yarn install
+ ```bash
+ npm install
+# ou
+yarn install
 
-3-Configura as credenciais do Firebase no ficheiro firebaseConfig.js:
-    ```react native
-export const firebaseConfig = {
-  apiKey: "SUA_API_KEY",
-  authDomain: "seu-projeto.firebaseapp.com",
-  projectId: "seu-projeto",
-  storageBucket: "seu-projeto.appspot.com",
-  messagingSenderId: "XXXXXXXXX",
-  appId: "APP_ID",
-};
 
-4- Inicia o projeto:
+3. Configura as credenciais do Firebase no ficheiro firebaseConfig.js.
+
+4. Inicia o projeto:
+
 ```bash
 npx expo start
-
