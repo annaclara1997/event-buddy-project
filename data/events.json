@@ -1,0 +1,118 @@
+[
+  {
+    "category": "Tech",
+    "datetime": "2025-08-26 11:00",
+    "description": "Palestras e simulações de segurança digital para o público geral e empresas.",
+    "favorites": [],
+    "imageUrl": "https://polarbackup.com/wp-content/uploads/2024/07/Cyber-Security.jpg",
+    "location": "Fundação Calouste Gulbenkian",
+    "participants": [],
+    "title": "CyberSec Awareness Week"
+  },
+  {
+    "category": "Tech",
+    "datetime": "2025-09-18 12:00",
+    "description": "Pavilhão com torneios, lançamentos de jogos indie e realidade virtual.",
+    "favorites": [],
+    "imageUrl": "https://www.maistecnologia.com/wp-content/uploads/2019/11/lisboa-games-week-2019-ultimo-dia-24-de-novembro-oportunidades-antes-do-fim-do-evento-www.maistecnologia.com-1024x576.jpg",
+    "location": "Altice Arena, Lisboa",
+    "participants": [],
+    "title": "Expo Gaming Portugal"
+  },
+  {
+    "category": "Educação",
+    "datetime": "2025-10-10 09:00",
+    "description": "Encontra os teus livros favoritos e novidades literárias.",
+    "favorites": [],
+    "imageUrl": "https://get.pxhere.com/photo/hand-man-book-music-woman-gift-human-shelf-business-shopping-friendship-room-close-interior-design-book-fair-family-art-library-friends-design-leipzig-trade-event-fair-loop-sell-give-company-offer-act-personal-897008.jpg",
+    "location": "Parque das Nações, Lisboa",
+    "participants": [],
+    "title": "Feira do Livro"
+  },
+  {
+    "category": "Tech",
+    "datetime": "2025-10-12 10:00",
+    "description": "Arquitetura de sistemas em nuvem, devops e escalabilidade com palestras técnicas.",
+    "favorites": [],
+    "imageUrl": "https://cloudsummit.eu/faq/5ai_4714.jpg",
+    "location": "Auditório da Microsoft, Porto",
+    "participants": [],
+    "title": "Cloud Computing Summit"
+  },
+  {
+    "category": "Educação",
+    "datetime": "2025-08-25 17:00",
+    "description": "Encontro informal sobre inteligência artificial em negócios e arte.",
+    "favorites": [],
+    "imageUrl": "https://www.securitylab.lat/upload/iblock/622/2wxicpbk2cwll1ikitsfotrp68vcymk8.jpg",
+    "location": "Fabrica de Startups, Lisboa",
+    "participants": [],
+    "title": "Café com IA"
+  },
+  {
+    "category": "Educação",
+    "datetime": "2025-10-05 15:00:00",
+    "description": "Experimenta jogos, arte e educação com AR interativa e workshops criativos.",
+    "favorites": [],
+    "imageUrl": "https://soundagencia.com.br/wp-content/uploads/2021/06/shutterstock_1036798225-scaled.jpg",
+    "location": "Casa do Impacto, Lisboa",
+    "participants": [],
+    "title": "Encontro de Realidade Aumentada"
+  },
+  {
+    "category": "Culinária",
+    "datetime": "2025-09-10 10:00",
+    "description": "Venha provar as melhores iguarias vegetarianas e veganas da região.",
+    "favorites": [],
+    "imageUrl": "https://get.pxhere.com/photo/food-natural-foods-whole-food-Food-group-superfood-cuisine-local-food-vegetable-ingredient-dish-vegan-nutrition-produce-vegetarian-food-delicacy-still-life-meal-recipe-herb-still-life-photography-1621684.jpg",
+    "location": "Centro de Congressos, Porto",
+    "participants": [],
+    "title": "Feira de Gastronomia Vegetariana"
+  },
+  {
+    "category": "Música",
+    "datetime": "2025-08-15 21:00",
+    "description": "Um festival de jazz ao ar livre no Parque das Nações.",
+    "favorites": [],
+    "imageUrl": "https://get.pxhere.com/photo/music-guitar-concert-live-musician-stage-jazz-de-2011-fete-huma-orchestra-lhumanit-fetedelhuma2011-bernard-lavilliers-performance-bassist-singing-guitarist-entertainment-singer-songwriter-rock-concert-musical-ensemble-102574.jpg",
+    "location": "Parque das Nações, Lisboa",
+    "participants": [],
+    "title": "Festival de Jazz"
+  },
+  {
+    "category": "Arte",
+    "datetime": "2025-08-15 10:00",
+    "description": "Uma exposição com artistas contemporâneos portugueses.",
+    "favorites": [
+      "LHYxwdd32zQTVPsN6ykI4faizpZ2"
+    ],
+    "imageUrl": "https://get.pxhere.com/photo/creative-girl-woman-old-louvre-museum-painting-pictures-art-relaxation-creativity-inspiration-gallery-paintings-tourist-attraction-exhibition-modern-art-art-gallery-vernissage-641507.jpg",
+    "location": "Museu de Arte Contemporânea, Lisboa",
+    "participants": [],
+    "title": "Exposição de Arte Moderna"
+  },
+  {
+    "category": "Música",
+    "datetime": "2025-07-21 19:00",
+    "description": "Festival de música em Lisboa",
+    "favorites": [
+      "Oiqjm1r2YAQkovK95XTeCXRFiyx2"
+    ],
+    "imageUrl": "https://images.rfm.pt/video-mapping-rock-in-rio-20247427e674_destaque_2col.jpeg",
+    "location": "Parque Tejo, Lisboa",
+    "participants": [
+      "Oiqjm1r2YAQkovK95XTeCXRFiyx2"
+    ],
+    "title": "Rock in Rio"
+  },
+  {
+    "category": "Desporto",
+    "datetime": "2025-10-05 08:00",
+    "description": "Participa nesta corrida para ajudar a angariar fundos para a caridade.",
+    "favorites": [],
+    "imageUrl": "https://get.pxhere.com/photo/pedestrian-person-road-street-running-run-crowd-lane-public-transport-marathon-sports-event-endurance-athletics-physical-exercise-urban-area-human-action-track-and-field-athletics-long-distance-running-177214.jpg",
+    "location": "Avenida da Liberdade, Lisboa",
+    "participants": [],
+    "title": "Maratona Solidária"
+  }
+]

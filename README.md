@@ -94,7 +94,8 @@ event-buddy/
 │
 ├── context/                 # Contexto global (ex: autenticação)
 │   └── AuthContext.js
-│
+├── data/
+│   └── events.json            # Dados de exemplo de eventos
 ├── screens/                 # Ecrãs principais da aplicação
 │   ├── ChangePassword.js
 │   ├── EditProfile.js
