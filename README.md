@@ -1,70 +1,119 @@
-# 🎉 Event Buddy
+# 🎉 Event Buddy
 
-_Event Buddy_ é uma aplicação móvel desenvolvida com React Native e Expo, criada para facilitar a descoberta, participação e gestão de eventos sociais e culturais. Ideal para utilizadores que desejam explorar eventos, guardar os favoritos e manter uma agenda personalizada.
+_Event Buddy_ é uma aplicação móvel desenvolvida em **React Native** com **Expo** que facilita a descoberta, participação e gestão de eventos sociais e culturais. É a escolha ideal para utilizadores que pretendem:
 
----
-
-## ✨ Funcionalidades principais
-
-- 🔐 Login seguro com **Firebase Authentication**
-- 🆕 Registo de utilizadores com **email e palavra-passe**
-- 🔁 Recuperação de palavra-passe via **email**
-- 🔓 Logout com limpeza da sessão
-- 🔒 Sessão persistente com **AsyncStorage**
-- 👤 Área pessoal com:
-  - Eventos em que estou inscrito
-  - Edição de perfil
-  - Alteração de palavra-passe
-- ⭐ Adição e remoção de eventos favoritos
-- ✅ Participação e cancelamento de inscrição em eventos
-- 🔍 Filtro de eventos por **nome ou categoria**
-- 📅 Lista de eventos disponíveis com detalhes completos
-- 📍 Visualização da localização no **Google Maps**
-- 💬 Chatbot integrado para apoio ao utilizador
-- 👋 Mensagem de boas-vindas personalizada (consoante a hora do dia)
-- 📲 Navegação intuitiva com **React Navigation**
+- Explorar eventos por local, categoria ou nome  
+- Guardar favoritos  
+- Inscrever‑se e gerir participações  
+- Manter uma agenda personalizada
 
 ---
 
-## 🛠️ Tecnologias utilizadas
+## ✨ Funcionalidades
 
-- React Native
-- Expo
-- Firebase Authentication
-- React Navigation
-- AsyncStorage
-- Google Maps API
+- 🔐 **Autenticação segura** com Firebase Authentication  
+- ➕ **Registo** com e‑mail e palavra‑passe  
+- 🔁 **Recuperação** de palavra‑passe por e‑mail  
+- 🔓 **Logout** com limpeza da sessão  
+- ♾️ **Sessão persistente** via AsyncStorage  
+- 👤 **Área Pessoal**  
+  - Lista de inscrições em eventos  
+  - Edição de perfil  
+  - Alteração de palavra‑passe  
+- ⭐ Adição e remoção de **favoritos**  
+- ✅ Inscrição e cancelamento em eventos  
+- 🔍 **Filtro** por nome ou categoria  
+- 📅 Lista detalhada de eventos disponíveis  
+- 📍 **Localização** no Google Maps  
+- 💬 **Chatbot** de apoio ao utilizador  
+- 👋 Mensagem de boas‑vindas consoante a hora do dia  
+- 📲 Navegação intuitiva com React Navigation  
 
 ---
 
-## ✅ Pré-requisitos
+## 🛠️ Tecnologias
 
-Antes de começares, certifica-te de que tens instalado:
+| Camada | Tech |
+| ------ | ---- |
+| Frontend | React Native + Expo |
+| Autenticação | Firebase Authentication |
+| Estado/Sessão | AsyncStorage |
+| Navegação | React Navigation |
+| Mapas | Google Maps API |
 
-- [Node.js](https://nodejs.org/) (versão LTS recomendada)
-- npm ou yarn
-- Expo CLI (instalação global):
+---
 
-  ```bash
-  npm install -g expo-cli
+## ✅ Pré‑requisitos
 
-⚙️ Instalação e execução do projeto
-Clona o repositório:
+1. **Node.js** (última versão LTS recomendada)  
+2. **npm** ou **yarn**  
+3. **Expo CLI** (instalação global):
 
-git clone https://github.com/seu-usuario/event-buddy.git
+   ```bash
+   npm install -g expo-cli
+
+## ⚙️ Instalação
+Clonar o repositório
+
+git clone https://github.com/<o‑teu‑utilizador>/event‑buddy.git
 cd event-buddy
 
-Instala as dependências:
+## 2. Instalar dependências
 
- ```bash
- npm install
-# ou
+```bash
+# npm
+npm install
+
+# ou, se preferires yarn
 yarn install
 
+## 3. Configurar Firebase.
 
-3. Configura as credenciais do Firebase no ficheiro firebaseConfig.js.
+Preenche as tuas credenciais do Firebase.
 
-4. Inicia o projeto:
+## 4. Iniciar o projeto
 
 ```bash
 npx expo start
+
+---
+
+## 📂 Estrutura de Pastas
+
+```text
+event-buddy/
+├── assets/                  # Imagens e ícones usados na app
+│   ├── background.jpg
+│   ├── eventbuddy3.png
+│   └── snack-icon.png
+│
+├── components/              # Componentes reutilizáveis
+│   ├── AssetExample.js
+│   └── EventCard.js
+│
+├── context/                 # Contexto global (ex: autenticação)
+│   └── AuthContext.js
+│
+├── screens/                 # Ecrãs principais da aplicação
+│   ├── ChangePassword.js
+│   ├── EditProfile.js
+│   ├── EventDetails.js
+│   ├── Events.js
+│   ├── Favorites.js
+│   ├── Home.js
+│   ├── Login.js
+│   ├── Participates.js
+│   ├── Profile.js
+│   ├── RecoveryPassword.js
+│   └── Signup.js
+│
+├── services/                # Lógica de serviços (ex: Firebase)
+│   └── firebaseAuth.js
+│
+├── styles/                  # Estilos globais da aplicação
+│   └── GlobalStyles.js
+│
+├── App.js                   # Ponto de entrada da aplicação
+├── firebaseConfig.js        # Configurações do Firebase
+├── package.json             # Dependências e scripts do projeto
+└── README.md                # Documento de apresentação
