@@ -9,7 +9,7 @@ _Event Buddy_ é uma aplicação móvel desenvolvida em **React Native** com *
 
 ---
 
-## ✨ Funcionalidades <img src="./assets/icons/folder-icon.png" width="20" />
+## ✨ Funcionalidades 
 
 - 🔐 **Autenticação segura** com Firebase Authentication  
 - ➕ **Registo** com e‑mail e palavra‑passe  
@@ -31,7 +31,7 @@ _Event Buddy_ é uma aplicação móvel desenvolvida em **React Native** com *
 
 ---
 
-## 🛠️ Tecnologias Utilizadas ![tech](https://www.svgrepo.com/show/452213/technology.svg)
+## 🛠️ Tecnologias Utilizadas 
 
 | Camada       | Tech                     |
 |--------------|--------------------------|
@@ -43,7 +43,7 @@ _Event Buddy_ é uma aplicação móvel desenvolvida em **React Native** com *
 
 ---
 
-## ✅ Pré‑requisitos ![checklist](https://www.svgrepo.com/show/531624/checklist.svg)
+## ✅ Pré‑requisitos 
 
 Antes de começares, certifica‑te de que tens instalados:
 
