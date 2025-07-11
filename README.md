@@ -120,3 +120,12 @@ event-buddy/
 └── README.md                # Documento de apresentação
 ```
 
+# Apresentação do Projeto
+
+![Página 1](print_projeto/page-0001.jpg)
+
+![Página 2](print_projeto/page-0002.jpg)
+
+![Página 3](print_projeto/page-0003.jpg)
+
+![Página 4](print_projeto/page-0004.jpg)
