@@ -9,7 +9,7 @@ _Event Buddy_ é uma aplicação móvel desenvolvida em **React Native** com *
 
 ---
 
-## ✨ Funcionalidades ![icon](https://www.svgrepo.com/show/503951/bolt.svg)
+## ✨ Funcionalidades <img src="./assets/icons/folder-icon.png" width="20" />
 
 - 🔐 **Autenticação segura** com Firebase Authentication  
 - ➕ **Registo** com e‑mail e palavra‑passe  
@@ -80,7 +80,7 @@ npx expo start
 ```
 Abre o Expo Go no teu dispositivo ou usa um simulador/emulador.
 
-5. ## 📂 Estrutura do Projeto
+## 📂 Estrutura do Projeto
 ```text
 event-buddy/
 ├── assets/                  # Imagens e ícones usados na app
