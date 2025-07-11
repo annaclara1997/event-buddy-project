@@ -1,6 +1,6 @@
 # 🎉 Event Buddy
 
-_Event Buddy_ é uma aplicação móvel desenvolvida em **React Native** com **Expo** que facilita a descoberta, participação e gestão de eventos sociais e culturais. É a escolha ideal para utilizadores que pretendem:
+_Event Buddy_ é uma aplicação móvel desenvolvida em **React Native** com **Expo**, criada para facilitar a descoberta, participação e gestão de eventos sociais e culturais. Ideal para utilizadores que pretendem:
 
 - Explorar eventos por local, categoria ou nome  
 - Guardar favoritos  
@@ -9,7 +9,7 @@ _Event Buddy_ é uma aplicação móvel desenvolvida em **React Native** com *
 
 ---
 
-## ✨ Funcionalidades
+## ✨ Funcionalidades ![icon](https://www.svgrepo.com/show/503951/bolt.svg)
 
 - 🔐 **Autenticação segura** com Firebase Authentication  
 - ➕ **Registo** com e‑mail e palavra‑passe  
@@ -31,55 +31,56 @@ _Event Buddy_ é uma aplicação móvel desenvolvida em **React Native** com *
 
 ---
 
-## 🛠️ Tecnologias
+## 🛠️ Tecnologias Utilizadas ![tech](https://www.svgrepo.com/show/452213/technology.svg)
 
-| Camada | Tech |
-| ------ | ---- |
-| Frontend | React Native + Expo |
-| Autenticação | Firebase Authentication |
-| Estado/Sessão | AsyncStorage |
-| Navegação | React Navigation |
-| Mapas | Google Maps API |
+| Camada       | Tech                     |
+|--------------|--------------------------|
+| Frontend     | React Native + Expo      |
+| Autenticação | Firebase Authentication  |
+| Sessão       | AsyncStorage             |
+| Navegação    | React Navigation         |
+| Mapas        | Google Maps API          |
 
 ---
 
-## ✅ Pré‑requisitos
+## ✅ Pré‑requisitos ![checklist](https://www.svgrepo.com/show/531624/checklist.svg)
 
-1. **Node.js** (última versão LTS recomendada)  
-2. **npm** ou **yarn**  
-3. **Expo CLI** (instalação global):
+Antes de começares, certifica‑te de que tens instalados:
 
-   ```bash
-   npm install -g expo-cli
-
-## ⚙️ Instalação
-Clonar o repositório
-
-git clone https://github.com/<o‑teu‑utilizador>/event‑buddy.git
-cd event-buddy
-
-## 2. Instalar dependências
+- [Node.js](https://nodejs.org/) (versão LTS recomendada)  
+- npm ou yarn  
+- Expo CLI (instalação global):
 
 ```bash
-# npm
+npm install -g expo-cli
+```
+
+## ⚙️ Instalação e Execução
+1. **Clonar o repositório**:
+
+git clone https://github.com/annaclara1997/event-buddy-project.git
+cd event-buddy
+
+2. **Instalar dependências**:
+
+```bash
 npm install
-
-# ou, se preferires yarn
+#ou
 yarn install
+```
 
-## 3. Configurar Firebase.
+3. **Configurar o Firebase**:
 
-Preenche as tuas credenciais do Firebase.
+Adiciona as tuas credenciais do Firebase (API key, authDomain, projectId, etc).
 
-## 4. Iniciar o projeto
+4. **Iniciar o projeto**:
 
 ```bash
 npx expo start
+```
+Abre o Expo Go no teu dispositivo ou usa um simulador/emulador.
 
----
-
-## 📂 Estrutura de Pastas
-
+5. ## 📂 Estrutura do Projeto
 ```text
 event-buddy/
 ├── assets/                  # Imagens e ícones usados na app
@@ -117,3 +118,5 @@ event-buddy/
 ├── firebaseConfig.js        # Configurações do Firebase
 ├── package.json             # Dependências e scripts do projeto
 └── README.md                # Documento de apresentação
+```
+
